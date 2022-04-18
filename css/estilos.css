@@ -16,7 +16,7 @@
 
 @font-face{
     font-family:"lato" ;
-    src: url("./lato/Lato-BlackItalic.ttf");
+    src: url(/media/lato/Lato-BoldItalic.ttf);
 }
 h2 {
     font-family:"lato" ;
@@ -24,7 +24,7 @@ h2 {
 }
 @font-face{
     font-family:"lato" ;
-    src: url(./lato/Lato-Black.ttf);
+    src: url(/media/lato/Lato-Italic.ttf);
 }
 footer{
     font-family: "lato";
@@ -53,7 +53,7 @@ footer{
 }
 #main{
     font-family:"lato";
-    src: url(../Desafio01/lato/Lato-Italic.ttf);
+    src: url(/media/lato/Lato-Italic.ttf);
 }
 /*estilos-en-taekwondo.html*/
 .title-c{
@@ -66,11 +66,11 @@ footer{
 }
 .p-taek{
     font-family: "lato";
-    src:url(../Desafio01/lato/Lato-Regular.ttf);
+    src:url(/media/lato/Lato-BlackItalic.ttf);
 }
 .main-taek{
     font-family: "lato";
-    src: url(../Desafio01/lato/Lato-BoldItalic.ttf);
+    src: url(/media/lato/Lato-BoldItalic.ttf);
 }
 /*estilos-en-judo.html*/
 .body-ju{
@@ -86,15 +86,15 @@ footer{
 }
 @font-face{
     font-family:"oswald";
-    src: url(../Desafio01/oswald/static/Oswald-Medium.ttf);
+    src: url(/media/oswald/static/Oswald-Medium.ttf);
 }
 .main-ju{
     font-family:"oswald";
-    src:url(../Desafio01/oswald/static/Oswald-Medium.ttf);
+    src:url(/media/oswald/static/Oswald-Medium.ttf);
 }
 .p-ju{
     font-family:"oswald";
-    src:url(../Desafio01/oswald/static/Oswald-Bold.ttf);
+    src:url(/media/oswald/static/Oswald-Bold.ttf);
 }
 /*estilos-en-kickboxing-html*/
 .body-kick{
@@ -110,11 +110,11 @@ footer{
 }
 .main-kick{
     font-family:"oswald";
-    src:url(../Desafio01/oswald/static/Oswald-ExtraLight.ttf);
+    src:url(/media/oswald/static/Oswald-ExtraLight.ttf);
 }
 .p-kick{
     font-family:"oswald";
-    src:url(../Desafio01/oswald/Oswald-VariableFont_wght.ttf);
+    src:url(/media/oswald/static/Oswald-ExtraLight.ttf);
 }
 /*estilos-en-muaythai.html*/
 .body-muay{
@@ -133,14 +133,14 @@ footer{
 }
 #ocho{
     font-family:"oswald";
-    src:url(../Desafio01/oswald/Oswald-VariableFont_wght.ttf);
+    src:url(/media/oswald/static/Oswald-ExtraLight.ttf);
 }
 .p-muay{
     color: azure;
 }
 #nueve{
     font-family:"oswald";
-    src:url(../Desafio01/oswald/Oswald-VariableFont_wght.ttf);
+    src:url(/media/oswald/static/Oswald-ExtraLight.ttf);
 }
 .footer-muay{
     color: azure;
