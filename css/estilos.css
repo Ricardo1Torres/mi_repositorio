@@ -1,0 +1,307 @@
+.titulo-color {
+    color:blueviolet;
+}
+#uno {
+    background-color: aqua;
+}
+.parrafo-color {
+    color:rgb(102, 48, 44)
+}
+#dos {
+    background-color: blueviolet;
+}
+.fondo-color {
+    background-color: coral;
+}
+
+@font-face{
+    font-family:"lato" ;
+    src: url("./lato/Lato-BlackItalic.ttf");
+}
+h2 {
+    font-family:"lato" ;
+
+}
+@font-face{
+    font-family:"lato" ;
+    src: url(./lato/Lato-Black.ttf);
+}
+footer{
+    font-family: "lato";
+}
+
+/*estilos-en-karate.html*/
+.estilo-titulo{
+    color:rgb(158, 113, 24);
+
+}
+#tres{
+    border-style: dashed;
+    border-color: burlywood;
+    background-color: rgb(133, 199, 131);
+}
+.color{
+    background-color: rgb(197, 197, 74);
+}
+/*estilos-en-boxeo.html*/
+.titulo01{
+    background-color: rgb(27, 129, 121);
+}
+#cuatro{
+    border-style: groove;
+    background-color: rgb(201, 156, 156);
+}
+#main{
+    font-family:"lato";
+    src: url(../Desafio01/lato/Lato-Italic.ttf);
+}
+/*estilos-en-taekwondo.html*/
+.title-c{
+    background-color: rgb(76, 216, 76);
+}
+.h1-taek{
+    border-style: groove;
+    border-color: black;
+    background-color: darkgray;
+}
+.p-taek{
+    font-family: "lato";
+    src:url(../Desafio01/lato/Lato-Regular.ttf);
+}
+.main-taek{
+    font-family: "lato";
+    src: url(../Desafio01/lato/Lato-BoldItalic.ttf);
+}
+/*estilos-en-judo.html*/
+.body-ju{
+    background-color: rgb(199, 184, 46);
+}
+.title-ju{
+    color: chocolate;
+}
+#cinco{
+    border-style: double;
+    border-color: black;
+    background-color: cyan;
+}
+@font-face{
+    font-family:"oswald";
+    src: url(../Desafio01/oswald/static/Oswald-Medium.ttf);
+}
+.main-ju{
+    font-family:"oswald";
+    src:url(../Desafio01/oswald/static/Oswald-Medium.ttf);
+}
+.p-ju{
+    font-family:"oswald";
+    src:url(../Desafio01/oswald/static/Oswald-Bold.ttf);
+}
+/*estilos-en-kickboxing-html*/
+.body-kick{
+    background-color: lightblue;
+}
+.h1-kick{
+    color:darkmagenta
+}
+#seis{
+    border-style: solid;
+    border-color: black;
+    background-color: lightgoldenrodyellow;
+}
+.main-kick{
+    font-family:"oswald";
+    src:url(../Desafio01/oswald/static/Oswald-ExtraLight.ttf);
+}
+.p-kick{
+    font-family:"oswald";
+    src:url(../Desafio01/oswald/Oswald-VariableFont_wght.ttf);
+}
+/*estilos-en-muaythai.html*/
+.body-muay{
+    background-color: rgb(201, 47, 47);
+}
+.h1-muay{
+    color: azure;
+}
+#siete{
+    border-style: double;
+    border-color: azure;
+    background-color: darkgoldenrod;
+}
+.main-muay{
+    color: azure;
+}
+#ocho{
+    font-family:"oswald";
+    src:url(../Desafio01/oswald/Oswald-VariableFont_wght.ttf);
+}
+.p-muay{
+    color: azure;
+}
+#nueve{
+    font-family:"oswald";
+    src:url(../Desafio01/oswald/Oswald-VariableFont_wght.ttf);
+}
+.footer-muay{
+    color: azure;
+}
+/*estilos-flex*/
+nav{
+    background-color: rgb(28, 109, 175);
+    padding: 10px;
+}
+ul {
+    list-style-type: none;
+}
+ul li {
+    margin-left: 10px;
+    background-color: rgb(236, 229, 229);
+    padding: 5px;
+    color: aliceblue;
+}
+.menu-flex{
+    display: flex;    
+}
+    
+.section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: start;
+}
+/*grid*/
+* {
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.body{
+    width: 100%;
+    width: 100vh;
+}
+.border{
+    border: solid 1px black;
+}
+#grid-area{
+    display: grid;
+/*estructura-de-grid-area*/ 
+    grid-template-areas:
+/*3-columnas-2-filas*/    
+    "menu cabeza palabras"
+    "menu pie pie" 
+    ;
+    grid-template-rows: 1fr ;
+    grid-row-gap: 5px;
+    
+}
+/*nombre-de-las-areas*/
+header {
+    grid-area: cabeza;
+
+}
+ footer {
+    grid-area: pie;
+ }
+ 
+ nav {
+    grid-area: menu;
+}
+main {
+    grid-area: palabras;
+}
+/*grid-en-pagina"boxeo"*/
+  
+.border02{
+    border: solid 1px black;
+}
+
+#grid-area02{
+    display: grid;
+    grid-template-areas:
+        "cabeza menu"
+        "cabeza palabras"
+        "cabeza pie"             
+    ;
+    grid-template-rows: 1fr ;
+    grid-row-gap: 5px;
+
+}
+    header {
+        grid-area: cabeza;     
+}
+     footer {
+        grid-area: pie;
+   
+}
+     nav {
+        grid-area: menu;
+}
+    main{
+        grid-area: palabras;
+    }
+/*aplicando responsive*/
+/*smartphone*/
+@media (max-width: 480px){
+    header, nav, footer {
+        padding: 10px;
+    }
+    #grid-area02{
+        display: grid;
+        grid-template-areas:
+            "cabeza menu"
+            "cabeza palabras"
+            "cabeza pie"             
+        ;
+        grid-template-columns: 58% auto 50%;
+        grid-template-rows: 1fr;
+    
+    }
+        header {
+            grid-area: cabeza;     
+    }
+         footer {
+            grid-area: pie;
+       
+    }
+         nav {
+            grid-area: menu;
+    }
+        main{
+            grid-area: palabras;
+        }
+   
+    }
+    .ninja {
+        display: block;
+        width: 100%;
+    }
+/*desktop */
+@media (min-width: 1024px){
+    header, nav, footer{
+        padding: 10 px;
+    }
+    #grid-area02{
+        display: grid;
+        grid-template-areas:
+            "cabeza menu"
+            "cabeza palabras"
+            "cabeza pie"             
+        ;
+        grid-template-columns: 58% auto 50%;
+        grid-template-rows: 1fr;
+    
+    }
+        header {
+            grid-area: cabeza;     
+    }
+         footer {
+            grid-area: pie;
+       
+    }
+         nav {
+            grid-area: menu;
+    }
+        main{
+            grid-area: palabras;
+        }
+}   
