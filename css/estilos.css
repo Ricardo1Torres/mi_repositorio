@@ -1,11 +1,16 @@
 .titulo-color {
     color:blueviolet;
+    width: 100 px;
+    height: 100 px; 
 }
 #uno {
-    background-color: aqua;
+    background-image: linear-gradient(pink, cyan );
+    animation-name: texto;
+    animation-duration: 3s;
+    
 }
 .parrafo-color {
-    color:rgb(102, 48, 44)
+    color:rgb(102, 48, 44);
 }
 #dos {
     background-color: blueviolet;
@@ -46,14 +51,17 @@ footer{
 /*estilos-en-boxeo.html*/
 .titulo01{
     background-color: rgb(27, 129, 121);
+
 }
 #cuatro{
     border-style: groove;
-    background-color: rgb(201, 156, 156);
+    background-image: linear-gradient(red, cyan);
+    animation-name: texto;
+    animation-duration: 3s;
 }
 #main{
     font-family:"lato";
-    src: url(/media/lato/Lato-Italic.ttf);
+    src: url(/media/lato/Lato-Italic.ttf);   
 }
 /*estilos-en-taekwondo.html*/
 .title-c{
@@ -152,6 +160,8 @@ nav{
 }
 ul {
     list-style-type: none;
+    animation-name: x;
+    animation-duration: 3s;
 }
 ul li {
     margin-left: 10px;
@@ -168,6 +178,8 @@ ul li {
     flex-flow: row wrap;
     justify-content: flex-start;
     align-items: start;
+    
+    
 }
 /*grid*/
 * {
@@ -303,5 +315,32 @@ main {
     }
         main{
             grid-area: palabras;
-        }
+    }
+
+    }/*animaciones*/
+    
+    @keyframes texto {
+        from/*inicio*/{
+            transform: rotateX(100px);
+            opacity: 0;
+            
+            
+    }
+    
+    to/*final*/{
+        transform: rotateX(0);
+        opacity: 1;
+
+}
+    
 }   
+    @keyframes x{
+        from/*inicio*/{
+            transform: translateX(1000px);
+            opacity: 0;
+            }
+            to/*final*/{
+                transform: translateX(0);
+                opacity: 1;
+                }
+    }
